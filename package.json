@@ -1,0 +1,19 @@
+{
+  "name": "supervidhufighter",
+  "version": "1.0.0",
+  "description": "vidhu is hot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epicTCK/SuperVidhuFighter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/epicTCK/SuperVidhuFighter/issues"
+  },
+  "homepage": "https://github.com/epicTCK/SuperVidhuFighter#readme"
+}
