@@ -1,5 +1,5 @@
-var connect = require('connect');
-var serveStatic = require('serve-static');
-connect().use(serveStatic(__dirname = "/src")).listen(5000, function(){
-    console.log('Server running on 80...');
-});
+var express = require('express')
+var app = express()
+
+app.set('port', (process.env.PORT || 5000))
+app.use(express.static(__dirname + '/src'))
